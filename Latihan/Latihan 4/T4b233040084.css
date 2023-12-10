@@ -87,7 +87,7 @@
   /* content start */
   .hero {
     height: 300px;
-    background-image: url("junk\ food.jpg");
+    background-image: url("junkfood1.jpg");
     background-size: cover;
     background-position: 0 -100px;
     border-top: 4px solid salmon;
@@ -136,7 +136,7 @@
   
   .hero2 {
     height: 300px;
-    background-image: url("junkfood.jpg");
+    background-image: url("junkfood2.jpg");
     background-size: cover;
     background-position: 0 -100px;
     border-top: 4px solid salmon;

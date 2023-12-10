@@ -1,50 +1,48 @@
 body {
-    font-family: Georgia;
-    background-color: aqua;
-  }
-  
-  h1 {
-    font-family: comic sans ms;
-    font-size: 60px;
-    color: darkblue;
-    text-align: center;
-  }
-  
-  h4 {
-      text-align: right;
-      font-style: italic;
-  }
-  
-  .a1 {
-    color: white;
-    text-transform: uppercase ;
-    letter-spacing: -1px;
-    text-decoration: underline 0px;
-    font-size:smaller;
-  }
-  
-  .a1:hover {
-    color: red;
-    text-decoration: none;
-  }
-  
-  .p1 {
-    color: orangered ;
-    text-align: center;
-  }
-  
-  .p2 {
-    text-align: center;
-  }
-  
-  .a2 {
-    font-weight: bold;
-    text-decoration: none;
-  }
-  
-  .a2:hover {
-    color: white;
-    background-color: blue;
-  }
-  
-  
+  font-family: Georgia;
+  background-color: aqua;
+}
+
+h1 {
+  font-family: comic sans ms;
+  font-size: 60px;
+  color: darkblue;
+  text-align: center;
+}
+
+h4 {
+  text-align: right;
+  font-style: italic;
+}
+
+.a1 {
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  text-decoration: underline 0px;
+  font-size: smaller;
+}
+
+.a1:hover {
+  color: red;
+  text-decoration: none;
+}
+
+.p1 {
+  color: orangered;
+  text-align: center;
+}
+
+.p2 {
+  text-align: center;
+}
+
+.a2 {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.a2:hover {
+  color: white;
+  background-color: blue;
+}
