@@ -1,0 +1,33 @@
+body {
+  font-family: Georgia;
+  background-color: aqua;
+}
+
+h1 {
+  font-family: comic sans ms;
+  font-size: 60px;
+  color: darkblue;
+  text-align: center;
+}
+
+h4 {
+  text-align: right;
+  font-style: italic;
+}
+
+.a1 {
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  text-decoration: underline 0px;
+  font-size: smaller;
+}
+
+.p1 {
+  color: orangered;
+  text-align: center;
+}
+
+.p2 {
+  text-align: center;
+}
