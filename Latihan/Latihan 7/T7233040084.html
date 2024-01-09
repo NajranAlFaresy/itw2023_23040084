@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tugas 7 - Grid</title>
+    <link rel="stylesheet" href="T7233040084.css" />
+    <!-- link font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- boxicon link -->
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <header class="header" id="home">
+        <div class="hero"></div>
+        <div class="features feature-1">
+          <h4 class="price">IDR 259.000</h4>
+        </div>
+        <div class="features feature-2">
+          <h4 class="price">IDR 215.000</h4>
+        </div>
+      </header>
+
+      <nav class="menu">
+        <div class="menu-toggle">
+          <input type="checkbox" />
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="logo">
+          <h1>Geoff max</h1>
+        </div>
+        <ul class="list">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#product">Product</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+
+      <section class="about" id="about">
+        <div class="main">
+          <img src="img/about.jpg" />
+          <div class="about-text">
+            <h2>About <span class="warna">us</span></h2>
+            <p>
+              Geoff Max adalah brand lokal fesyen asal Bandung yang populer di
+              kalangan milenial dan gen z pecinta musik dan olahraga
+              ekstrem.Geoff Max berdiri sejak tahun 2013 yang didirikan oleh dua
+              sahabat yaitu Yusuf Ramdhani dan Fauzan Efwanda yang sama-sama
+              mempunyai cita-cita ingin berwirausaha agar dapat bebas berkreasi
+              dan membuka lapangan pekerjaan.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="product" id="product">
+        <h2>Product</h2>
+        <img src="img/sepatu3.jpg" />
+        <img src="img/sepatu2.jpg" />
+        <img src="img/sepatu4.jpg" />
+        <img src="img/bag1.jpg" />
+        <img src="img/bag2.jpeg" />
+        <img src="img/cn1.jpeg" />
+        <img src="img/hoodie1.jpg" />
+        <img src="img/hoodie2.jpg" />
+      </section>
+      <section class="contact">
+        <div class="contact-text">
+          <h2>Contact</h2>
+        </div>
+
+        <div class="contact-icon">
+          <a href="https://www.instagram.com/morgenunderage/"
+            ><i class="bx bxl-instagram"></i>Najran_af_</a
+          >
+          <a href=" https://github.com/debayniaw"
+            ><i class="bx bxl-github"></i>NajranAlFaresy</a
+          >
+        </div>
+      </section>
+    </div>
+
+    <script>
+      const menuToggle = document.querySelector(".menu-toggle input");
+
+      const nav = document.querySelector("nav ul");
+
+      menuToggle.addEventListener("click", function () {
+        nav.classList.toggle("slide");
+      });
+    </script>
+  </body>
+</html>
